@@ -11,4 +11,9 @@ UserAgent = {'Baidu':'Mozilla/5.0 (compatible; Baiduspider/2.0;+http://www.baidu
              'Opera':'User-Agent:Opera/9.80 (Windows NT 6.1; WOW64; U; en) Presto/2.10.229 Version/11.62',
              'FireFox':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:6.0) Gecko/20100101 Firefox/6.0',
              'Chrome':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36'}
+DomainNameServer = {'Alibaba':'223.6.6.6',
+                    'Public':'114.114.114.114',
+                    'Google':'8.8.8.8',
+                    'OneDNS':'117.50.11.11',
+                    'Tencent':'119.29.29.29'}
 Packet = {'Http':''}

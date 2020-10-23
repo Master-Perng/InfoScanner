@@ -1,9 +1,6 @@
+import random
 import Dictionaries
-
-
-
-if __name__ == '__main__' :
-   I=''
-   I=input()
-   x=Dictionaries.UserAgent[I]
-   print(x)
+UserAgentKey = random.sample(Dictionaries.UserAgent.keys(),1)
+user_agent = Dictionaries.UserAgent[UserAgentKey[0]]
+print(type(DomainNameServer))
+print(DomainNameServer)

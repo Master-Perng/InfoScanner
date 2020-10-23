@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-import gettitle
+import getWeb
 import getDNS
 import readfile
 import fire
@@ -28,7 +28,7 @@ if __name__=='__main__' :
   url_File=input()
   url=readfile.ReadTxtName(url_File)
   for url_ in url:
-    gettitle.getHttpInfo(url_)
+    getWeb.getHttpInfo(url_)
     getDNS.get(url_)
 
 
