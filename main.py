@@ -34,15 +34,14 @@ if __name__=='__main__' :
 
 
 
-  class target:   #目标基类
+'''  class target():   #目标基类
     url = ''              #URL
     domain = ''           #域名
     ICP = ''              #ICP备案号
     PoliceNo = ''         #公安备案号
     port = ['']
-    """ def __init__(self):
-      self.url = url
-      self.domain = domain"""
+    IP = ''
+    def get'''
 
 
 
